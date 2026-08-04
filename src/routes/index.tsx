@@ -13,11 +13,11 @@ export const Route = createFileRoute("/")({
         content:
           "Lịch trình Đà Lạt 2 ngày 2 đêm của nhóm Nhà Lá, 14–16/08/2026, 8 thành viên, chi phí ~2 triệu/người. Xe giường nằm khởi hành 22:25 từ TP.HCM.",
       },
-      { property: "og:title", content: "Đà Lạt Trip 2N2Đ · Nhà Lá" },
+      { property: "og:title", content: "Đà Lạt Trip 2N2Đ · Nhà Lá · 14–16/08/2026" },
       {
         property: "og:description",
         content:
-          "Lịch trình chi tiết, bảng chi phí và checklist cho chuyến Đà Lạt 14–16/08/2026 của nhóm Nhà Lá.",
+          "Lịch trình Đà Lạt 2 ngày 2 đêm của nhóm Nhà Lá, 14–16/08/2026, 8 thành viên, chi phí ~2 triệu/người. Xe giường nằm khởi hành 22:25 từ TP.HCM.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
