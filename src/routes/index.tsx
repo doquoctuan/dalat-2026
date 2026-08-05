@@ -3,6 +3,7 @@ import heroImg from "@/assets/dalat-hero.jpg";
 import homestayImg from "@/assets/dalat-homestay.jpg";
 import cloudsImg from "@/assets/dalat-clouds.jpg";
 import marketImg from "@/assets/dalat-market.jpg";
+import fundQrImg from "@/assets/fund-qr.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -384,6 +385,22 @@ function Index() {
                 Mỗi người chuyển trước 1.200.000đ cho thủ quỹ để đặt xe + homestay, phần còn
                 lại thanh toán trực tiếp trong chuyến đi.
               </p>
+              <div className="mt-4 rounded-xl border border-accent/30 bg-background/60 p-4">
+                <p className="text-xs uppercase tracking-widest text-muted-foreground">
+                  QR join quỹ
+                </p>
+                <img
+                  src={fundQrImg}
+                  alt="Mã QR chuyển khoản join quỹ chuyến đi Đà Lạt"
+                  loading="lazy"
+                  width={220}
+                  height={220}
+                  className="mt-3 h-44 w-44 rounded-lg border border-border bg-white object-contain p-2"
+                />
+                <p className="mt-3 text-sm text-muted-foreground">
+                  Quét mã để góp quỹ nhanh cho thủ quỹ.
+                </p>
+              </div>
             </div>
           </div>
         </section>
